@@ -1,0 +1,111 @@
+{
+  "slug": "parmezanowe-bulki-jak-z-subwaya",
+  "title": "Parmezanowe bułki jak z Subwaya",
+  "category": "Pieczywo",
+  "tags": [
+    "bułki",
+    "pieczywo",
+    "drożdżowe",
+    "parmezan",
+    "kanapki"
+  ],
+  "summary": "Miękkie mleczne bułki drożdżowe z posypką z parmezanu, oregano, bazylii i suszonej cebuli.",
+  "servings": {
+    "base": 3
+  },
+  "time": {
+    "prepMinutes": 35,
+    "cookMinutes": 20,
+    "totalMinutes": 185
+  },
+  "nutrition": {
+    "caloriesPerServing": null
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "flour",
+      "name": "mąki",
+      "amount": 520,
+      "unit": "g"
+    },
+    {
+      "id": "milk",
+      "name": "mleka 3,2%",
+      "amount": 330,
+      "unit": "ml"
+    },
+    {
+      "id": "butter",
+      "name": "masła w temperaturze pokojowej",
+      "amount": 25,
+      "unit": "g"
+    },
+    {
+      "id": "dry-yeast",
+      "name": "suchych drożdży",
+      "amount": 5,
+      "unit": "g"
+    },
+    {
+      "id": "sugar",
+      "name": "cukru",
+      "amount": 10,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "name": "soli",
+      "amount": 13,
+      "unit": "g"
+    },
+    {
+      "id": "egg-wash",
+      "name": "jajka z mlekiem do posmarowania",
+      "amount": null,
+      "unit": "do posmarowania"
+    },
+    {
+      "id": "parmesan",
+      "name": "parmezanu do posypania",
+      "amount": null,
+      "unit": "do posypania"
+    },
+    {
+      "id": "oregano",
+      "name": "oregano",
+      "amount": null,
+      "unit": "do posypania"
+    },
+    {
+      "id": "basil",
+      "name": "bazylii",
+      "amount": null,
+      "unit": "do posypania"
+    },
+    {
+      "id": "dried-onion",
+      "name": "suszonej cebuli",
+      "amount": null,
+      "unit": "do posypania"
+    },
+    {
+      "id": "water-steam",
+      "name": "wody do zaparowania piekarnika",
+      "amount": null,
+      "unit": "odrobina"
+    }
+  ],
+  "steps": [
+    "Do misy robota wsyp mąkę, suche drożdże, cukier i sól. Wlej mleko.",
+    "Wyrabiaj ciasto przez około 8 minut.",
+    "Dodaj miękkie masło i wyrabiaj jeszcze 10-15 minut, aż ciasto będzie gładkie i elastyczne.",
+    "Uformuj ciasto w kulę, przełóż do miski, przykryj i odstaw na 1 godzinę do wyrośnięcia.",
+    "Zważ ciasto i podziel je na 3 równe części. Z każdej uformuj kulkę, przykryj i odstaw na 15 minut.",
+    "Delikatnie oprósz blat mąką. Każdą kulkę rozwałkuj albo rozpłaszcz, zwiń w podłużną bułkę i dobrze domknij łączenie.",
+    "Uformowane bułki przykryj i odstaw na 1 godzinę do wyrośnięcia.",
+    "Natnij bułki ostrym nożem. Posmaruj jajkiem wymieszanym z mlekiem.",
+    "Posyp mieszanką parmezanu, oregano, bazylii i suszonej cebuli.",
+    "Piecz w 180°C z termoobiegiem przez 18-20 minut. Po wstawieniu bułek wlej na dół piekarnika odrobinę wody, żeby wytworzyć parę."
+  ]
+}
