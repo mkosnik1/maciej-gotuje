@@ -7,7 +7,9 @@
     "pieczywo",
     "drożdżowe",
     "kanapki",
-    "włoskie"
+    "włoskie",
+    "wege",
+    "wegańskie"
   ],
   "summary": "Focaccia z 600 g mąki. Puszysta, oliwna i idealna do kanapek, zup albo bezczelnego maczania w oliwie z balsamico.",
   "servings": {
@@ -52,7 +54,7 @@
     },
     {
       "id": "honey",
-      "name": "miodu, cukru albo syropu z agawy",
+      "name": "cukru lub syropu z agawy (ew. miodu; do wersji wegańskiej bez miodu)",
       "amount": 5,
       "unit": "g"
     },
@@ -76,7 +78,7 @@
     },
     {
       "id": "toppings",
-      "name": "dodatków, np. rozmarynu, oliwek, papryki, cebuli, jalapeño albo sera",
+      "name": "dodatków, np. rozmarynu, oliwek, papryki, cebuli, jalapeño albo sera (do wersji wegańskiej bez sera)",
       "amount": null,
       "unit": "według uznania"
     }
