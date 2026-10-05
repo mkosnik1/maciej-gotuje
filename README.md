@@ -6,7 +6,8 @@ Prywatna książka kucharska w formie prostej statycznej strony.
 
 - lista przepisów z wyszukiwarką, kategoriami i tagami
 - strona pojedynczego przepisu
-- podsumowanie przepisu: porcje, kalorie, czas, trudność, opcjonalna ocena
+- podsumowanie przepisu: porcje, kalorie i czas
+- automatyczna lista tagów z liczbą przepisów i wyszukiwarką tagów
 - kalkulator składników według liczby porcji
 - kalkulator składników według ilości konkretnego składnika, np. 500 g mąki
 - przepisy trzymane w `data/recipes.json`
@@ -49,8 +50,6 @@ Dopisz kolejny obiekt do tablicy w `data/recipes.json`.
   "nutrition": {
     "caloriesPerServing": 520
   },
-  "difficulty": 2,
-  "rating": 4,
   "image": "assets/placeholder.jpg",
   "ingredients": [
     {
