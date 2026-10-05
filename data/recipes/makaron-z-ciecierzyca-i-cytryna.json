@@ -1,0 +1,67 @@
+{
+  "slug": "makaron-z-ciecierzyca-i-cytryna",
+  "title": "Makaron z ciecierzycą i cytryną",
+  "category": "Sycące",
+  "tags": [
+    "szybkie",
+    "wegetariańskie",
+    "jednogarnkowe"
+  ],
+  "summary": "Prosty obiad na dzień, w którym chcesz zjeść coś konkretnego bez stania godzinę przy kuchence.",
+  "servings": {
+    "base": 2
+  },
+  "time": {
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "totalMinutes": 28
+  },
+  "nutrition": {
+    "caloriesPerServing": 640
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "pasta",
+      "name": "makaronu",
+      "amount": 220,
+      "unit": "g"
+    },
+    {
+      "id": "chickpeas",
+      "name": "ciecierzycy z puszki",
+      "amount": 240,
+      "unit": "g"
+    },
+    {
+      "id": "olive-oil",
+      "name": "oliwy",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "lemon",
+      "name": "soku z cytryny",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "garlic",
+      "name": "czosnku",
+      "amount": 2,
+      "unit": "ząbki"
+    },
+    {
+      "id": "salt",
+      "name": "soli i pieprzu",
+      "amount": null,
+      "unit": "do smaku"
+    }
+  ],
+  "steps": [
+    "Ugotuj makaron al dente i zachowaj pół szklanki wody z gotowania.",
+    "Podsmaż czosnek na oliwie przez około minutę.",
+    "Dodaj ciecierzycę, sok z cytryny i kilka łyżek wody z makaronu.",
+    "Wymieszaj sos z makaronem, dopraw solą i pieprzem."
+  ]
+}
