@@ -221,7 +221,7 @@ function renderRecipe(slug) {
           <p>${escapeHtml(recipe.summary)}</p>
           <div class="stats">
             <span class="stat">${recipe.servings.base} ${pluralServings(recipe.servings.base)}</span>
-            <span class="stat">${recipe.nutrition.caloriesPerServing} kcal / porcję</span>
+            ${Number.isFinite(recipe.nutrition?.caloriesPerServing) ? `<span class="stat">${recipe.nutrition.caloriesPerServing} kcal / porcję</span>` : ""}
             <span class="stat">${recipe.time.totalMinutes} min łącznie</span>
           </div>
         </div>
