@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maciej gotuje</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="Główna nawigacja">
+        <a class="brand" href="#/">Maciej gotuje</a>
+        <a href="#/">Przepisy</a>
+        <a href="#/schema">Format JSON</a>
+      </nav>
+      <section class="hero">
+        <p class="eyebrow">Prywatna książka kucharska</p>
+        <h1>Przepisy zebrane w jednym miejscu, bez chaosu.</h1>
+        <p>
+          Każdy przepis ma czas, porcje, kalorie, trudność, tagi i kalkulator,
+          który przelicza składniki pod liczbę porcji albo pod to, ile masz danego składnika.
+        </p>
+      </section>
+    </header>
+
+    <main id="app" class="app" aria-live="polite"></main>
+
+    <template id="recipe-card-template">
+      <article class="recipe-card">
+        <div class="recipe-card__image" aria-hidden="true"></div>
+        <div class="recipe-card__body">
+          <div class="recipe-card__meta"></div>
+          <h2></h2>
+          <p></p>
+          <div class="tag-list"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
