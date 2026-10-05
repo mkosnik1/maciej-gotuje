@@ -9,7 +9,7 @@
     "parmezan",
     "kanapki"
   ],
-  "summary": "Miękkie mleczne bułki drożdżowe z posypką z parmezanu, oregano, bazylii i suszonej cebuli.",
+  "summary": "Duże mleczne bułki z parmezanową posypką. Subway vibe, tylko bez pytania po raz trzeci, jaki sos wybierasz.",
   "servings": {
     "base": 3
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 185
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 805,
+    "proteinGrams": 28,
+    "carbsGrams": 138,
+    "fatGrams": 15
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -97,15 +100,15 @@
     }
   ],
   "steps": [
-    "Do misy robota wsyp mąkę, suche drożdże, cukier i sól. Wlej mleko.",
-    "Wyrabiaj ciasto przez około 8 minut.",
-    "Dodaj miękkie masło i wyrabiaj jeszcze 10-15 minut, aż ciasto będzie gładkie i elastyczne.",
-    "Uformuj ciasto w kulę, przełóż do miski, przykryj i odstaw na 1 godzinę do wyrośnięcia.",
-    "Zważ ciasto i podziel je na 3 równe części. Z każdej uformuj kulkę, przykryj i odstaw na 15 minut.",
-    "Delikatnie oprósz blat mąką. Każdą kulkę rozwałkuj albo rozpłaszcz, zwiń w podłużną bułkę i dobrze domknij łączenie.",
-    "Uformowane bułki przykryj i odstaw na 1 godzinę do wyrośnięcia.",
+    "Do misy robota wsyp mąkę, drożdże, cukier i sól. Wlej mleko.",
+    "Wyrabiaj około 8 minut, aż ciasto zacznie wyglądać jak coś, z czym da się dogadać.",
+    "Dodaj miękkie masło i wyrabiaj jeszcze 10-15 minut. Ma być gładko i elastycznie.",
+    "Uformuj kulę, włóż do miski, przykryj i odstaw na 1 godzinę do wyrośnięcia.",
+    "Zważ ciasto i podziel na 3 równe części. Z każdej zrób kulkę, przykryj i zostaw na 15 minut.",
+    "Lekko oprósz blat mąką. Każdą kulkę rozpłaszcz, zwiń w podłużną bułkę i dobrze domknij łączenie.",
+    "Przykryj bułki i odstaw na 1 godzinę do wyrośnięcia.",
     "Natnij bułki ostrym nożem. Posmaruj jajkiem wymieszanym z mlekiem.",
-    "Posyp mieszanką parmezanu, oregano, bazylii i suszonej cebuli.",
-    "Piecz w 180°C z termoobiegiem przez 18-20 minut. Po wstawieniu bułek wlej na dół piekarnika odrobinę wody, żeby wytworzyć parę."
+    "Posyp mieszanką parmezanu, oregano, bazylii i suszonej cebuli. Tutaj nie żałuj, to cały numer.",
+    "Piecz w 180°C z termoobiegiem przez 18-20 minut. Po wstawieniu bułek wlej na dół piekarnika odrobinę wody, żeby zrobić parę."
   ]
 }
