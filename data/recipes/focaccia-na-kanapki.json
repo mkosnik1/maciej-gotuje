@@ -31,39 +31,39 @@
     },
     {
       "id": "warm-water",
-      "name": "ciepłej wody, zacznij od mniejszej ilości i dodaj więcej w razie potrzeby",
-      "amount": 486,
+      "name": "ciepłej wody, zacznij od 390 ml i dodaj więcej w razie potrzeby",
+      "amount": 420,
       "unit": "ml"
     },
     {
       "id": "olive-oil",
       "name": "oliwy extra virgin do ciasta",
-      "amount": 18,
+      "amount": 15,
       "unit": "ml"
     },
     {
       "id": "instant-yeast",
       "name": "drożdży instant",
-      "amount": 7.2,
+      "amount": 6,
       "unit": "g"
     },
     {
       "id": "honey",
       "name": "miodu, cukru albo syropu z agawy",
-      "amount": 6,
+      "amount": 5,
       "unit": "g"
     },
     {
       "id": "salt",
       "name": "drobnej soli morskiej",
-      "amount": 12,
+      "amount": 10,
       "unit": "g"
     },
     {
       "id": "pan-olive-oil",
       "name": "oliwy extra virgin do formy i polania ciasta",
       "amount": null,
-      "unit": "około 4 łyżki"
+      "unit": "około 3 łyżki"
     },
     {
       "id": "flaky-salt",
