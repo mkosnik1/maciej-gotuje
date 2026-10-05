@@ -9,9 +9,9 @@
     "kanapki",
     "włoskie"
   ],
-  "summary": "Puszysta focaccia z 600 g mąki, dobra do kanapek, zup, sałatek i maczania w oliwie.",
+  "summary": "Focaccia z 600 g mąki. Puszysta, oliwna i idealna do kanapek, zup albo bezczelnego maczania w oliwie z balsamico.",
   "servings": {
-    "base": 1
+    "base": 8
   },
   "time": {
     "prepMinutes": 25,
@@ -19,7 +19,10 @@
     "totalMinutes": 210
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 337,
+    "proteinGrams": 9,
+    "carbsGrams": 58,
+    "fatGrams": 8
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -79,15 +82,15 @@
     }
   ],
   "steps": [
-    "Wymieszaj trzepaczką ciepłą wodę, oliwę, miód albo cukier oraz drożdże.",
-    "Dodaj mąkę chlebową i sól. Wymieszaj do połączenia składników, przykryj i zostaw na 15 minut w temperaturze pokojowej.",
-    "Zrób około 8 rozciągnięć i złożeń ciasta wokół miski. Przykryj i zostaw na kolejne 15 minut.",
-    "Powtórz rozciąganie i składanie. Przykryj i zostaw do wyrastania na 1-1,5 godziny w temperaturze pokojowej.",
-    "Formę metalową około 23 x 33 cm wyłóż papierem do pieczenia i posmaruj go oliwą. Jeśli chcesz cieńszą i bardziej chrupiącą focaccię, użyj większej formy.",
-    "Przełóż ciasto do formy, złóż je delikatnie, przykryj i zostaw na 1-1,5 godziny w temperaturze pokojowej.",
-    "Rozgrzej piekarnik do 220°C. Ustaw kratkę na najniższym poziomie.",
-    "Rozciągnij ciasto do brzegów formy. Dodaj rozmaryn albo inne dodatki, polej oliwą, zrób wgłębienia palcami i posyp solą w płatkach.",
-    "Piecz 18-24 minuty na najniższym poziomie piekarnika, aż spód będzie chrupiący, a wierzch złoty.",
-    "Przełóż focaccię na kratkę. Odczekaj minimum 15 minut przed krojeniem."
+    "Wymieszaj ciepłą wodę, oliwę, miód albo cukier oraz drożdże.",
+    "Dodaj mąkę i sól. Wymieszaj tylko do połączenia, przykryj i zostaw na 15 minut. Ciasto ma być luźne, spokojnie.",
+    "Zrób około 8 rozciągnięć i złożeń wokół miski. Przykryj i zostaw na kolejne 15 minut.",
+    "Powtórz rozciąganie i składanie. Przykryj i daj ciastu 1-1,5 godziny na wyrośnięcie.",
+    "Formę około 23 x 33 cm wyłóż papierem i posmaruj oliwą. Większa forma da cieńszą, bardziej chrupiącą focaccię.",
+    "Przełóż ciasto do formy, złóż delikatnie, przykryj i zostaw na 1-1,5 godziny.",
+    "Rozgrzej piekarnik do 220°C i ustaw kratkę na najniższym poziomie.",
+    "Rozciągnij ciasto do brzegów. Dodaj rozmaryn albo inne dodatki, polej oliwą, zrób wgłębienia palcami i posyp solą w płatkach.",
+    "Piecz 18-24 minuty na najniższym poziomie, aż spód będzie chrupiący, a wierzch złoty.",
+    "Przełóż na kratkę i odczekaj minimum 15 minut. Krojenie od razu kusi, ale nie rób sobie tej krzywdy."
   ]
 }
