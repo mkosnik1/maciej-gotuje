@@ -101,7 +101,20 @@ function renderHome() {
   const filteredRecipes = getFilteredRecipes();
   const tagCounts = getTagCounts();
   const visibleTags = getVisibleTags();
+  const allTags = getAllTags();
+  const allCategories = getAllCategories();
   app.innerHTML = `
+    <section class="page-heading">
+      <div>
+        <p class="eyebrow">Książka kucharska</p>
+        <h1>Przepisy</h1>
+      </div>
+      <div class="quick-stats" aria-label="Podsumowanie książki kucharskiej">
+        <span><strong>${recipes.length}</strong> przepisy</span>
+        <span><strong>${allCategories.length}</strong> kategorie</span>
+        <span><strong>${allTags.length}</strong> tagi</span>
+      </div>
+    </section>
     <div class="layout">
       <aside class="filters">
         <h2>Filtry</h2>
@@ -113,7 +126,7 @@ function renderHome() {
           <label for="category">Kategoria</label>
           <select id="category">
             <option value="all">Wszystkie</option>
-            ${getAllCategories()
+            ${allCategories
               .map((category) => `<option value="${escapeHtml(category)}" ${category === selectedCategory ? "selected" : ""}>${escapeHtml(category)}</option>`)
               .join("")}
           </select>
