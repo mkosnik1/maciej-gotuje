@@ -1,0 +1,118 @@
+{
+  "slug": "makaron-z-sosem-orzechowym-i-chili",
+  "title": "Makaron z sosem orzechowym i chili",
+  "category": "Sycące",
+  "tags": [
+    "makaron",
+    "orzechowe",
+    "pikantne",
+    "wegańskie",
+    "szybkie"
+  ],
+  "summary": "Makaron w pikantnym sosie z masła orzechowego, sosu sojowego i aromatycznego oleju.",
+  "servings": {
+    "base": 2
+  },
+  "time": {
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20
+  },
+  "nutrition": {
+    "caloriesPerServing": null
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "peanut-butter",
+      "name": "chrupiącego masła orzechowego",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "garlic",
+      "name": "posiekanego czosnku",
+      "amount": 1,
+      "unit": "łyżka"
+    },
+    {
+      "id": "ginger",
+      "name": "posiekanego imbiru",
+      "amount": 1,
+      "unit": "łyżka"
+    },
+    {
+      "id": "spring-onion",
+      "name": "drobno pokrojonej dymki",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "shallot",
+      "name": "drobno pokrojonej szalotki",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "chili-crisp",
+      "name": "chili crisp",
+      "amount": 2,
+      "unit": "łyżeczki"
+    },
+    {
+      "id": "sesame",
+      "name": "prażonego sezamu",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "soy-sauce",
+      "name": "sosu sojowego",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "rice-vinegar",
+      "name": "octu ryżowego",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "oil",
+      "name": "neutralnego oleju (np. słonecznikowego)",
+      "amount": 80,
+      "unit": "ml"
+    },
+    {
+      "id": "noodles",
+      "name": "makaronu azjatyckiego",
+      "amount": 2,
+      "unit": "porcje"
+    },
+    {
+      "id": "red-chili",
+      "name": "małej czerwonej papryczki chili, pokrojonej w plasterki",
+      "amount": 1,
+      "unit": "szt."
+    },
+    {
+      "id": "noodle-water",
+      "name": "wody z gotowania makaronu",
+      "amount": null,
+      "unit": "w razie potrzeby"
+    },
+    {
+      "id": "garnish",
+      "name": "dodatkowej dymki, chili i sezamu do podania",
+      "amount": null,
+      "unit": "do smaku"
+    }
+  ],
+  "steps": [
+    "Do patelni włóż masło orzechowe, czosnek, imbir, dymkę, szalotkę, chili crisp, sezam, sos sojowy, ocet ryżowy i pokrojoną papryczkę chili.",
+    "Rozgrzej olej, aż będzie bardzo gorący i zacznie lekko dymić. Ostrożnie polej nim składniki na patelni, a następnie dokładnie wymieszaj trzepaczką, tworząc sos.",
+    "Ugotuj makaron zgodnie z instrukcją na opakowaniu. Zachowaj trochę wody z gotowania.",
+    "Wymieszaj makaron z sosem. Jeśli sos jest za gęsty, dolej odrobinę zachowanej wody.",
+    "Podawaj z dodatkową dymką, chili i sezamem."
+  ]
+}
