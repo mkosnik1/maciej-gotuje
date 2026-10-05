@@ -1,0 +1,112 @@
+{
+  "slug": "fasola-w-sosie-smietankowym-z-suszonymi-pomidorami",
+  "title": "Fasola w sosie śmietankowym z suszonymi pomidorami",
+  "category": "Sycące",
+  "tags": [
+    "fasola",
+    "wege",
+    "szybkie",
+    "kremowe",
+    "obiad"
+  ],
+  "summary": "Biała fasola w kremowym sosie ze śmietanki, suszonych pomidorów i pecorino.",
+  "servings": {
+    "base": 2
+  },
+  "time": {
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25
+  },
+  "nutrition": {
+    "caloriesPerServing": null
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "white-beans",
+      "name": "białej fasoli z puszki",
+      "amount": 1,
+      "unit": "puszka"
+    },
+    {
+      "id": "cream",
+      "name": "śmietanki 30%",
+      "amount": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "sun-dried-tomatoes",
+      "name": "suszonych pomidorów w oleju",
+      "amount": 0.5,
+      "unit": "małego słoiczka"
+    },
+    {
+      "id": "onion",
+      "name": "cebuli",
+      "amount": 1,
+      "unit": "szt."
+    },
+    {
+      "id": "garlic",
+      "name": "czosnku",
+      "amount": 2,
+      "unit": "ząbki"
+    },
+    {
+      "id": "butter",
+      "name": "masła do smażenia",
+      "amount": null,
+      "unit": "do smażenia"
+    },
+    {
+      "id": "pecorino",
+      "name": "pecorino, parmezanu albo grana padano",
+      "amount": 35,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "name": "soli",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "pepper",
+      "name": "pieprzu",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "hot-paprika",
+      "name": "ostrej papryki",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "herbes-de-provence",
+      "name": "ziół prowansalskich",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "basil",
+      "name": "świeżej bazylii",
+      "amount": null,
+      "unit": "kilka listków"
+    },
+    {
+      "id": "serving",
+      "name": "ryżu albo grzanek z ciemnego chleba do podania",
+      "amount": null,
+      "unit": "opcjonalnie"
+    }
+  ],
+  "steps": [
+    "Cebulę pokrój w kostkę, czosnek drobno posiekaj, a suszone pomidory pokrój na mniejsze kawałki.",
+    "Na patelni rozpuść masło. Dodaj fasolę, cebulę, czosnek i suszone pomidory.",
+    "Dopraw solą, pieprzem, ostrą papryką i ziołami prowansalskimi. Smaż, aż cebula się zeszkli.",
+    "Dolej śmietankę i dodaj starty ser. Podgrzewaj na małym ogniu, aż ser się rozpuści, a sos zrobi się kremowy.",
+    "Podawaj ze świeżą bazylią, ryżem albo grzanką z ciemnego chleba."
+  ]
+}
