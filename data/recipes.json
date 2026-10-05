@@ -16,8 +16,6 @@
     "nutrition": {
       "caloriesPerServing": 640
     },
-    "difficulty": 2,
-    "rating": 4,
     "image": "assets/placeholder.jpg",
     "ingredients": [
       {
@@ -81,8 +79,6 @@
     "nutrition": {
       "caloriesPerServing": 480
     },
-    "difficulty": 1,
-    "rating": 5,
     "image": "assets/placeholder.jpg",
     "ingredients": [
       {
@@ -139,8 +135,6 @@
     "nutrition": {
       "caloriesPerServing": 390
     },
-    "difficulty": 3,
-    "rating": 4,
     "image": "assets/placeholder.jpg",
     "ingredients": [
       {
