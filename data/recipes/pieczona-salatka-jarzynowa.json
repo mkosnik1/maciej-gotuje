@@ -9,7 +9,7 @@
     "jajka",
     "wegetariańskie"
   ],
-  "summary": "Klasyczna sałatka jarzynowa w wersji z pieczonymi warzywami, ogórkami kiszonymi, jabłkiem, jajkiem i sosem majonezowo-musztardowym.",
+  "summary": "Sałatka jarzynowa, ale warzywa najpierw lądują w piekarniku. Więcej smaku, mniej gotowania w smutnej wodzie.",
   "servings": {
     "base": 6
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 60
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 351,
+    "proteinGrams": 10,
+    "carbsGrams": 42,
+    "fatGrams": 16
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -103,11 +106,11 @@
     }
   ],
   "steps": [
-    "Ziemniaki, marchewkę, korzeń pietruszki i seler pokrój w kostkę.",
-    "Przełóż warzywa na blachę, polej oliwą, dopraw solą i pieprzem.",
-    "Piecz w 200°C przez 40 minut, mieszając warzywa w połowie pieczenia. Ostudź.",
+    "Pokrój ziemniaki, marchewkę, korzeń pietruszki i seler w kostkę.",
+    "Wrzuć warzywa na blachę, polej oliwą, dopraw solą i pieprzem.",
+    "Piecz w 200°C przez 40 minut. W połowie przemieszaj, bo nikt nie chce pół blachy bladej rozpaczy. Ostudź.",
     "Wymieszaj majonez, musztardę i odrobinę sosu sojowego albo maggi.",
-    "Ogórki kiszone, jabłka i jajka pokrój w kostkę.",
-    "Wymieszaj ostudzone pieczone warzywa z ogórkami, jabłkami, jajkami i sosem. Dopraw solą i pieprzem do smaku."
+    "Pokrój ogórki kiszone, jabłka i jajka w kostkę.",
+    "Wymieszaj pieczone warzywa z ogórkami, jabłkami, jajkami i sosem. Dopraw solą i pieprzem. Gotowe, klasyk dostał upgrade."
   ]
 }
