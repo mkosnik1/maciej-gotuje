@@ -7,7 +7,8 @@
     "pieczywo",
     "drożdżowe",
     "parmezan",
-    "kanapki"
+    "kanapki",
+    "wege"
   ],
   "summary": "Duże mleczne bułki z parmezanową posypką. Subway vibe, tylko bez pytania po raz trzeci, jaki sos wybierasz.",
   "servings": {
@@ -70,7 +71,7 @@
     },
     {
       "id": "parmesan",
-      "name": "parmezanu do posypania",
+      "name": "parmezanu do posypania (do wersji wege wybierz ser z podpuszczką mikrobiologiczną)",
       "amount": null,
       "unit": "do posypania"
     },
