@@ -1,0 +1,93 @@
+{
+  "slug": "focaccia-na-kanapki",
+  "title": "Focaccia na kanapki",
+  "category": "Pieczywo",
+  "tags": [
+    "focaccia",
+    "pieczywo",
+    "drożdżowe",
+    "kanapki",
+    "włoskie"
+  ],
+  "summary": "Puszysta focaccia z 600 g mąki, dobra do kanapek, zup, sałatek i maczania w oliwie.",
+  "servings": {
+    "base": 1
+  },
+  "time": {
+    "prepMinutes": 25,
+    "cookMinutes": 24,
+    "totalMinutes": 210
+  },
+  "nutrition": {
+    "caloriesPerServing": null
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "bread-flour",
+      "name": "białej mąki chlebowej, minimum 12% białka",
+      "amount": 600,
+      "unit": "g"
+    },
+    {
+      "id": "warm-water",
+      "name": "ciepłej wody, zacznij od mniejszej ilości i dodaj więcej w razie potrzeby",
+      "amount": 486,
+      "unit": "ml"
+    },
+    {
+      "id": "olive-oil",
+      "name": "oliwy extra virgin do ciasta",
+      "amount": 18,
+      "unit": "ml"
+    },
+    {
+      "id": "instant-yeast",
+      "name": "drożdży instant",
+      "amount": 7.2,
+      "unit": "g"
+    },
+    {
+      "id": "honey",
+      "name": "miodu, cukru albo syropu z agawy",
+      "amount": 6,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "name": "drobnej soli morskiej",
+      "amount": 12,
+      "unit": "g"
+    },
+    {
+      "id": "pan-olive-oil",
+      "name": "oliwy extra virgin do formy i polania ciasta",
+      "amount": null,
+      "unit": "około 4 łyżki"
+    },
+    {
+      "id": "flaky-salt",
+      "name": "soli w płatkach",
+      "amount": null,
+      "unit": "do posypania"
+    },
+    {
+      "id": "toppings",
+      "name": "dodatków, np. rozmarynu, oliwek, papryki, cebuli, jalapeño albo sera",
+      "amount": null,
+      "unit": "według uznania"
+    }
+  ],
+  "steps": [
+    "Wymieszaj trzepaczką ciepłą wodę, oliwę, miód albo cukier oraz drożdże.",
+    "Dodaj mąkę chlebową i sól. Wymieszaj do połączenia składników, przykryj i zostaw na 15 minut w temperaturze pokojowej.",
+    "Zrób około 8 rozciągnięć i złożeń ciasta wokół miski. Przykryj i zostaw na kolejne 15 minut.",
+    "Powtórz rozciąganie i składanie. Przykryj i zostaw do wyrastania na 1-1,5 godziny w temperaturze pokojowej.",
+    "Formę metalową około 23 x 33 cm wyłóż papierem do pieczenia i posmaruj go oliwą. Jeśli chcesz cieńszą i bardziej chrupiącą focaccię, użyj większej formy.",
+    "Przełóż ciasto do formy, złóż je delikatnie, przykryj i zostaw na 1-1,5 godziny w temperaturze pokojowej.",
+    "Rozgrzej piekarnik do 220°C. Ustaw kratkę na najniższym poziomie.",
+    "Rozciągnij ciasto do brzegów formy. Dodaj rozmaryn albo inne dodatki, polej oliwą, zrób wgłębienia palcami i posyp solą w płatkach.",
+    "Piecz 18-24 minuty na najniższym poziomie piekarnika, aż spód będzie chrupiący, a wierzch złoty.",
+    "Przełóż focaccię na kratkę. Odczekaj minimum 15 minut przed krojeniem."
+  ]
+}
