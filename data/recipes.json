@@ -174,5 +174,99 @@
       "Odstaw pod przykryciem na około godzinę.",
       "Uformuj i piecz według tego, do czego używasz ciasta."
     ]
+  },
+  {
+    "slug": "mleczny-chlebek-shokupan",
+    "title": "Mleczny chlebek shokupan",
+    "category": "Wypieki",
+    "tags": ["chleb", "drożdżowe", "japońskie", "tosty", "tangzhong"],
+    "summary": "Miękki, puszysty chleb mleczny na tangzhong, dobry do tostów na słono i tostów francuskich.",
+    "servings": {
+      "base": 12
+    },
+    "time": {
+      "prepMinutes": 35,
+      "cookMinutes": 35,
+      "totalMinutes": 195
+    },
+    "nutrition": {
+      "caloriesPerServing": 250
+    },
+    "image": "assets/placeholder.jpg",
+    "ingredients": [
+      {
+        "id": "tangzhong-milk",
+        "name": "mleka do tangzhong",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "tangzhong-flour",
+        "name": "mąki chlebowej do tangzhong",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "id": "bread-flour",
+        "name": "mąki chlebowej",
+        "amount": 520,
+        "unit": "g"
+      },
+      {
+        "id": "dry-yeast",
+        "name": "suchych drożdży",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "id": "sugar",
+        "name": "cukru",
+        "amount": 2,
+        "unit": "łyżki"
+      },
+      {
+        "id": "salt",
+        "name": "soli",
+        "amount": 1.5,
+        "unit": "łyżeczki"
+      },
+      {
+        "id": "milk",
+        "name": "mleka do ciasta",
+        "amount": 310,
+        "unit": "ml"
+      },
+      {
+        "id": "butter",
+        "name": "miękkiego masła",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "id": "egg-yolk",
+        "name": "żółtko do posmarowania",
+        "amount": 1,
+        "unit": "szt."
+      },
+      {
+        "id": "glaze-milk",
+        "name": "mleka do posmarowania",
+        "amount": 1,
+        "unit": "łyżka"
+      }
+    ],
+    "steps": [
+      "Przygotuj tangzhong: w małym garnku podgrzewaj 100 ml mleka z 40 g mąki chlebowej na małym ogniu, cały czas mieszając, aż powstanie gęsta pasta. Odstaw do przestudzenia.",
+      "Dodaj tangzhong do 310 ml mleka i wymieszaj.",
+      "Do misy robota wsyp 520 g mąki chlebowej, drożdże, cukier i sól. Wlej mleko z tangzhong i wyrabiaj przez 10 minut.",
+      "Dodaj miękkie masło i wyrabiaj kolejne 10 minut, aż ciasto będzie gładkie i elastyczne.",
+      "Przykryj ciasto ściereczką i odstaw w ciepłe miejsce na 1-1,5 godziny, aż podwoi objętość.",
+      "Wyrośnięte ciasto podziel na 5 równych części, po około 205 g. Uformuj kulki, przykryj i zostaw na 10 minut.",
+      "Każdą kulkę rozwałkuj na prostokąt, zegnij dłuższe boki do środka i zwiń w rolkę.",
+      "Ułóż rolki w wysmarowanej masłem formie o długości około 30 cm. Przykryj i odstaw na 30-40 minut, pilnując, żeby ciasto nie wyrosło ponad foremkę.",
+      "Rozgrzej piekarnik do 210°C. Przed pieczeniem posmaruj chlebek żółtkiem roztrzepanym z łyżką mleka.",
+      "Piecz 30-35 minut, aż góra się przyrumieni. Jeśli używasz formy z pokrywką, piecz 35-40 minut.",
+      "Po wyjęciu z piekarnika uderz kilka razy foremką o blat, potem wyłóż chleb na kratkę do wystudzenia."
+    ]
   }
 ]
