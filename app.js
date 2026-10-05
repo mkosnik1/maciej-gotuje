@@ -30,9 +30,18 @@ const byTitle = (a, b) => a.title.localeCompare(b.title, "pl");
 
 async function loadRecipes() {
   try {
-    const response = await fetch("data/recipes.json");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    recipes = await response.json();
+    const indexResponse = await fetch("data/recipes/index.json");
+    if (!indexResponse.ok) throw new Error(`HTTP ${indexResponse.status}`);
+
+    const recipeFiles = await indexResponse.json();
+    recipes = await Promise.all(
+      recipeFiles.map(async (fileName) => {
+        const response = await fetch(`data/recipes/${fileName}`);
+        if (!response.ok) throw new Error(`${fileName}: HTTP ${response.status}`);
+        return response.json();
+      })
+    );
+
     render();
   } catch (error) {
     app.innerHTML = `
@@ -358,7 +367,7 @@ function renderSchema() {
     <section class="schema">
       <a class="back-link" href="#/">← Wszystkie przepisy</a>
       <h1>Format przepisu w JSON</h1>
-      <p>Nowe przepisy dopisuj jako kolejne obiekty w <code>data/recipes.json</code>.</p>
+      <p>Nowe przepisy dodawaj jako osobne pliki w <code>data/recipes/</code>, a nazwę pliku dopisz do <code>data/recipes/index.json</code>.</p>
       <pre><code>${JSON.stringify(example, null, 2)}</code></pre>
     </section>
   `;
