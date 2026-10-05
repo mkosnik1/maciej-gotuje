@@ -9,7 +9,7 @@
     "tosty",
     "tangzhong"
   ],
-  "summary": "Miękki, puszysty chleb mleczny na tangzhong, dobry do tostów na słono i tostów francuskich.",
+  "summary": "Miękki mleczny chlebek na tangzhong. Puchaty, lekko maślany i totalnie gotowy na tosty, kanapki albo francuskie śniadanie bez kombinowania.",
   "servings": {
     "base": 12
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 195
   },
   "nutrition": {
-    "caloriesPerServing": 250
+    "caloriesPerServing": 253,
+    "proteinGrams": 7,
+    "carbsGrams": 39,
+    "fatGrams": 8
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -85,16 +88,16 @@
     }
   ],
   "steps": [
-    "Przygotuj tangzhong: w małym garnku podgrzewaj 100 ml mleka z 40 g mąki chlebowej na małym ogniu, cały czas mieszając, aż powstanie gęsta pasta. Odstaw do przestudzenia.",
-    "Dodaj tangzhong do 310 ml mleka i wymieszaj.",
-    "Do misy robota wsyp 520 g mąki chlebowej, drożdże, cukier i sól. Wlej mleko z tangzhong i wyrabiaj przez 10 minut.",
-    "Dodaj miękkie masło i wyrabiaj kolejne 10 minut, aż ciasto będzie gładkie i elastyczne.",
-    "Przykryj ciasto ściereczką i odstaw w ciepłe miejsce na 1-1,5 godziny, aż podwoi objętość.",
-    "Wyrośnięte ciasto podziel na 5 równych części, po około 205 g. Uformuj kulki, przykryj i zostaw na 10 minut.",
-    "Każdą kulkę rozwałkuj na prostokąt, zegnij dłuższe boki do środka i zwiń w rolkę.",
-    "Ułóż rolki w wysmarowanej masłem formie o długości około 30 cm. Przykryj i odstaw na 30-40 minut, pilnując, żeby ciasto nie wyrosło ponad foremkę.",
-    "Rozgrzej piekarnik do 210°C. Przed pieczeniem posmaruj chlebek żółtkiem roztrzepanym z łyżką mleka.",
-    "Piecz 30-35 minut, aż góra się przyrumieni. Jeśli używasz formy z pokrywką, piecz 35-40 minut.",
-    "Po wyjęciu z piekarnika uderz kilka razy foremką o blat, potem wyłóż chleb na kratkę do wystudzenia."
+    "Zacznij od tangzhong. Podgrzewaj 100 ml mleka z 40 g mąki na małym ogniu i mieszaj, aż zrobi się gęsta pasta. Odstaw, niech chwilę ochłonie.",
+    "Wymieszaj tangzhong z 310 ml mleka. Tak, wygląda dziwnie. Ma wyglądać dziwnie.",
+    "Do misy robota wsyp mąkę, drożdże, cukier i sól. Wlej mleko z tangzhong i wyrabiaj przez 10 minut.",
+    "Dodaj miękkie masło i wyrabiaj kolejne 10 minut, aż ciasto zrobi się gładkie, sprężyste i bardzo z siebie zadowolone.",
+    "Przykryj miskę i odstaw w ciepłe miejsce na 1-1,5 godziny, aż ciasto podwoi objętość.",
+    "Podziel ciasto na 5 równych części, po około 205 g. Uformuj kulki, przykryj i daj im 10 minut luzu.",
+    "Każdą kulkę rozwałkuj na prostokąt, złóż dłuższe boki do środka i zwiń w rolkę.",
+    "Ułóż rolki w wysmarowanej masłem formie około 30 cm. Przykryj i odstaw na 30-40 minut. Pilnuj, żeby ciasto nie uciekło ponad foremkę.",
+    "Rozgrzej piekarnik do 210°C. Posmaruj chlebek żółtkiem roztrzepanym z łyżką mleka.",
+    "Piecz 30-35 minut, aż góra będzie rumiana. W formie z pokrywką piecz 35-40 minut.",
+    "Po wyjęciu kilka razy stuknij foremką o blat, wyjmij chleb na kratkę i daj mu ostygnąć. Serio, chociaż trochę."
   ]
 }
