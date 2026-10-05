@@ -9,7 +9,7 @@
     "kremowe",
     "obiad"
   ],
-  "summary": "Ugotowana fasola Piękny Jaś w gładkim sosie z pomidorów, garam masala, śmietanki i masła.",
+  "summary": "Piękny Jaś ląduje w gładkim sosie z pomidorów, garam masala, śmietanki i masła. Taki comfort food, tylko z fasoli.",
   "servings": {
     "base": 3
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 30
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 532,
+    "proteinGrams": 21,
+    "carbsGrams": 62,
+    "fatGrams": 23
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -139,13 +142,13 @@
     }
   ],
   "steps": [
-    "Cebulę pokrój w kostkę, czosnek posiekaj, a imbir obierz i zetrzyj albo drobno posiekaj.",
-    "Na maśle z dodatkiem oliwy podsmaż cebulę, aż się zeszkli.",
-    "Dodaj czosnek i imbir. Smaż krótko, tylko do uwolnienia aromatu.",
-    "Dodaj koncentrat pomidorowy i garam masala. Wymieszaj i podsmaż jeszcze przez chwilę.",
-    "Wlej pulpę pomidorową, dodaj paprykę wędzoną, paprykę słodką, sól, pieprz, kumin, kurkumę, płatki chili i miód. Gotuj kilka minut.",
+    "Pokrój cebulę, posiekaj czosnek, a imbir zetrzyj albo posiekaj bardzo drobno.",
+    "Na maśle z odrobiną oliwy podsmaż cebulę, aż się zeszkli.",
+    "Dodaj czosnek i imbir. Smaż krótko, tylko do momentu, aż zacznie pachnieć jak dobry pomysł.",
+    "Dodaj koncentrat pomidorowy i garam masala. Wymieszaj i podsmaż chwilę, żeby przyprawy się obudziły.",
+    "Wlej pulpę pomidorową. Dodaj paprykę wędzoną, słodką paprykę, sól, pieprz, kumin, kurkumę, płatki chili i miód. Gotuj kilka minut.",
     "Zblenduj sos na gładko.",
-    "Dodaj ugotowaną fasolę i śmietankę. Podgrzewaj na małym ogniu, aż sos zgęstnieje i oblepi fasolę.",
-    "Podawaj z posiekaną natką pietruszki."
+    "Dodaj fasolę i śmietankę. Podgrzewaj na małym ogniu, aż sos zgęstnieje i porządnie oblepi fasolę.",
+    "Podawaj z natką pietruszki. I najlepiej czymś do wygarnięcia sosu z talerza."
   ]
 }
