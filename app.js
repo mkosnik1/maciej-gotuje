@@ -4,6 +4,7 @@ const cardTemplate = document.querySelector("#recipe-card-template");
 let recipes = [];
 let selectedTag = "all";
 let searchTerm = "";
+let tagSearchTerm = "";
 let selectedCategory = "all";
 
 const escapeHtml = (value) =>
@@ -60,6 +61,23 @@ function getAllTags() {
   return [...new Set(recipes.flatMap((recipe) => recipe.tags))].sort((a, b) => a.localeCompare(b, "pl"));
 }
 
+function getTagCounts() {
+  return recipes.reduce((counts, recipe) => {
+    recipe.tags.forEach((tag) => {
+      counts[tag] = (counts[tag] || 0) + 1;
+    });
+    return counts;
+  }, {});
+}
+
+function getVisibleTags() {
+  const normalizedSearch = tagSearchTerm.trim().toLowerCase();
+  return getAllTags().filter((tag) => {
+    if (!normalizedSearch) return true;
+    return tag.toLowerCase().includes(normalizedSearch);
+  });
+}
+
 function getAllCategories() {
   return [...new Set(recipes.map((recipe) => recipe.category))].sort((a, b) => a.localeCompare(b, "pl"));
 }
@@ -81,6 +99,8 @@ function getFilteredRecipes() {
 
 function renderHome() {
   const filteredRecipes = getFilteredRecipes();
+  const tagCounts = getTagCounts();
+  const visibleTags = getVisibleTags();
   app.innerHTML = `
     <div class="layout">
       <aside class="filters">
@@ -99,10 +119,14 @@ function renderHome() {
           </select>
         </div>
         <h2>Tagi</h2>
+        <div class="field">
+          <label for="tag-search">Szukaj tagu</label>
+          <input id="tag-search" type="search" value="${escapeHtml(tagSearchTerm)}" placeholder="np. szybkie, słodkie">
+        </div>
         <div class="tag-filter">
-          <button class="tag-button ${selectedTag === "all" ? "is-active" : ""}" data-tag="all">Wszystkie</button>
-          ${getAllTags()
-            .map((tag) => `<button class="tag-button ${tag === selectedTag ? "is-active" : ""}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)}</button>`)
+          <button class="tag-button ${selectedTag === "all" ? "is-active" : ""}" data-tag="all">Wszystkie <span>${recipes.length}</span></button>
+          ${visibleTags
+            .map((tag) => `<button class="tag-button ${tag === selectedTag ? "is-active" : ""}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span>${tagCounts[tag]}</span></button>`)
             .join("")}
         </div>
       </aside>
@@ -120,6 +144,11 @@ function renderHome() {
 
   app.querySelector("#category").addEventListener("change", (event) => {
     selectedCategory = event.target.value;
+    renderHome();
+  });
+
+  app.querySelector("#tag-search").addEventListener("input", (event) => {
+    tagSearchTerm = event.target.value;
     renderHome();
   });
 
@@ -172,8 +201,6 @@ function renderRecipe(slug) {
             <span class="stat">${recipe.servings.base} ${pluralServings(recipe.servings.base)}</span>
             <span class="stat">${recipe.nutrition.caloriesPerServing} kcal / porcję</span>
             <span class="stat">${recipe.time.totalMinutes} min łącznie</span>
-            <span class="stat">trudność ${recipe.difficulty}/5</span>
-            ${recipe.rating ? `<span class="stat">ocena ${recipe.rating}/5</span>` : ""}
           </div>
         </div>
         <div class="recipe-hero__image" aria-label="Placeholder zdjęcia przepisu"></div>
@@ -305,8 +332,6 @@ function renderSchema() {
     servings: { base: 2 },
     time: { prepMinutes: 10, cookMinutes: 20, totalMinutes: 30 },
     nutrition: { caloriesPerServing: 520 },
-    difficulty: 2,
-    rating: 4,
     image: "assets/placeholder.jpg",
     ingredients: [
       { id: "flour", name: "mąki", amount: 500, unit: "g" },
