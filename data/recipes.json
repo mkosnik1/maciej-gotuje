@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "makaron-z-ciecierzyca-i-cytryna",
+    "title": "Makaron z ciecierzycą i cytryną",
+    "category": "Sycące",
+    "tags": ["szybkie", "wegetariańskie", "jednogarnkowe"],
+    "summary": "Prosty obiad na dzień, w którym chcesz zjeść coś konkretnego bez stania godzinę przy kuchence.",
+    "servings": {
+      "base": 2
+    },
+    "time": {
+      "prepMinutes": 10,
+      "cookMinutes": 18,
+      "totalMinutes": 28
+    },
+    "nutrition": {
+      "caloriesPerServing": 640
+    },
+    "difficulty": 2,
+    "rating": 4,
+    "image": "assets/placeholder.jpg",
+    "ingredients": [
+      {
+        "id": "pasta",
+        "name": "makaronu",
+        "amount": 220,
+        "unit": "g"
+      },
+      {
+        "id": "chickpeas",
+        "name": "ciecierzycy z puszki",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "id": "olive-oil",
+        "name": "oliwy",
+        "amount": 2,
+        "unit": "łyżki"
+      },
+      {
+        "id": "lemon",
+        "name": "soku z cytryny",
+        "amount": 2,
+        "unit": "łyżki"
+      },
+      {
+        "id": "garlic",
+        "name": "czosnku",
+        "amount": 2,
+        "unit": "ząbki"
+      },
+      {
+        "id": "salt",
+        "name": "soli i pieprzu",
+        "amount": null,
+        "unit": "do smaku"
+      }
+    ],
+    "steps": [
+      "Ugotuj makaron al dente i zachowaj pół szklanki wody z gotowania.",
+      "Podsmaż czosnek na oliwie przez około minutę.",
+      "Dodaj ciecierzycę, sok z cytryny i kilka łyżek wody z makaronu.",
+      "Wymieszaj sos z makaronem, dopraw solą i pieprzem."
+    ]
+  },
+  {
+    "slug": "owsianka-banan-orzechy",
+    "title": "Owsianka z bananem i orzechami",
+    "category": "Lekkie",
+    "tags": ["śniadanie", "szybkie", "słodkie"],
+    "summary": "Ciepłe śniadanie, które robi się szybciej niż scrolluje poranne dramy.",
+    "servings": {
+      "base": 1
+    },
+    "time": {
+      "prepMinutes": 3,
+      "cookMinutes": 7,
+      "totalMinutes": 10
+    },
+    "nutrition": {
+      "caloriesPerServing": 480
+    },
+    "difficulty": 1,
+    "rating": 5,
+    "image": "assets/placeholder.jpg",
+    "ingredients": [
+      {
+        "id": "oats",
+        "name": "płatków owsianych",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "id": "milk",
+        "name": "mleka albo napoju roślinnego",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "id": "banana",
+        "name": "banana",
+        "amount": 1,
+        "unit": "szt."
+      },
+      {
+        "id": "nuts",
+        "name": "orzechów",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "id": "cinnamon",
+        "name": "cynamonu",
+        "amount": null,
+        "unit": "do smaku"
+      }
+    ],
+    "steps": [
+      "Podgrzej płatki z mlekiem przez 5-7 minut.",
+      "Rozgnieć pół banana i wmieszaj go do owsianki.",
+      "Podaj z resztą banana, orzechami i cynamonem."
+    ]
+  },
+  {
+    "slug": "ciasto-podstawowe-drozdzowe",
+    "title": "Podstawowe ciasto drożdżowe",
+    "category": "Wypieki",
+    "tags": ["baza", "drożdżowe", "do-przeliczania"],
+    "summary": "Prosta baza pod bułki, pizzę albo eksperymenty, w których mąka dyktuje resztę składników.",
+    "servings": {
+      "base": 4
+    },
+    "time": {
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "totalMinutes": 100
+    },
+    "nutrition": {
+      "caloriesPerServing": 390
+    },
+    "difficulty": 3,
+    "rating": 4,
+    "image": "assets/placeholder.jpg",
+    "ingredients": [
+      {
+        "id": "flour",
+        "name": "mąki pszennej",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "water",
+        "name": "ciepłej wody",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "id": "yeast",
+        "name": "suchych drożdży",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "id": "oil",
+        "name": "oliwy",
+        "amount": 2,
+        "unit": "łyżki"
+      },
+      {
+        "id": "salt",
+        "name": "soli",
+        "amount": 1,
+        "unit": "łyżeczka"
+      }
+    ],
+    "steps": [
+      "Wymieszaj mąkę, drożdże i sól.",
+      "Dodaj wodę oraz oliwę, potem wyrabiaj ciasto przez 8-10 minut.",
+      "Odstaw pod przykryciem na około godzinę.",
+      "Uformuj i piecz według tego, do czego używasz ciasta."
+    ]
+  }
+]
