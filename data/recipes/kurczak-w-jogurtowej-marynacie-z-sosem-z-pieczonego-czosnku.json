@@ -9,7 +9,7 @@
     "czosnek",
     "obiad"
   ],
-  "summary": "Pieczone udka kurczaka w przyprawionej marynacie jogurtowej, podane z sosem z pieczonego czosnku, jogurtu i pietruszki.",
+  "summary": "Kurczak w jogurtowej marynacie, pieczona cebula i sos z całej główki czosnku. Czyli obiad, który pachnie jak bardzo dobra decyzja.",
   "servings": {
     "base": 4
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 80
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 563,
+    "proteinGrams": 38,
+    "carbsGrams": 11,
+    "fatGrams": 40
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -157,15 +160,15 @@
     }
   ],
   "steps": [
-    "Osusz kurczaka ręcznikiem papierowym i pokrój na duże kawałki.",
-    "W dużej misce wymieszaj jogurt grecki, koncentrat pomidorowy, posiekany czosnek, sok z cytryny, kumin, chili powder, paprykę, kurkumę, cebulę granulowaną, pieprz, sól i oliwę.",
-    "Dodaj kurczaka i dokładnie obtocz go w marynacie. Odstaw na tyle czasu, ile masz, albo piecz od razu.",
+    "Osusz kurczaka i pokrój go na duże kawałki.",
+    "W dużej misce wymieszaj jogurt, koncentrat, czosnek, sok z cytryny, przyprawy, sól i oliwę.",
+    "Wrzuć kurczaka do marynaty i obtocz każdy kawałek. Możesz marynować długo, możesz też piec od razu. Życie bywa szybkie.",
     "Rozgrzej piekarnik do 220°C. Odetnij górę główki czosnku, polej oliwą, posyp solą, zawiń w folię i piecz 45-60 minut.",
-    "Przełóż zamarynowanego kurczaka do dużego naczynia żaroodpornego albo na blachę. Dodaj kawałki czerwonej cebuli.",
-    "Piecz 30-40 minut, aż kurczak się zarumieni, będzie chrupiący na brzegach i upieczony w środku.",
-    "Wyjmij blachę z piekarnika i polej kurczaka sokami z pieczenia.",
-    "Wyciśnij upieczony czosnek do miski i rozgnieć go na pastę.",
-    "Dodaj jogurt grecki, majonez, sok z cytryny, pieprz i pietruszkę. Wymieszaj, spróbuj i dopraw w razie potrzeby.",
-    "Podawaj kurczaka z sosem z pieczonego czosnku."
+    "Przełóż kurczaka do naczynia albo na blachę. Dodaj kawałki czerwonej cebuli.",
+    "Piecz 30-40 minut, aż kurczak będzie rumiany, lekko chrupiący na brzegach i gotowy w środku.",
+    "Wyjmij blachę i polej kurczaka sokami z pieczenia. To jest smak, nie dekoracja.",
+    "Wyciśnij pieczony czosnek do miski i rozgnieć go na pastę.",
+    "Dodaj jogurt, majonez, sok z cytryny, pieprz i pietruszkę. Wymieszaj, spróbuj i dopraw, jeśli trzeba.",
+    "Podawaj kurczaka z sosem z pieczonego czosnku. Najlepiej od razu, zanim ktoś zacznie podjadać z blachy."
   ]
 }
