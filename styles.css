@@ -141,7 +141,15 @@ select {
 }
 
 .tag-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   cursor: pointer;
+}
+
+.tag-button span {
+  color: var(--accent-strong);
+  font-weight: 800;
 }
 
 .tag-button.is-active {
