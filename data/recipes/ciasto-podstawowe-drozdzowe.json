@@ -1,0 +1,61 @@
+{
+  "slug": "ciasto-podstawowe-drozdzowe",
+  "title": "Podstawowe ciasto drożdżowe",
+  "category": "Wypieki",
+  "tags": [
+    "baza",
+    "drożdżowe",
+    "do-przeliczania"
+  ],
+  "summary": "Prosta baza pod bułki, pizzę albo eksperymenty, w których mąka dyktuje resztę składników.",
+  "servings": {
+    "base": 4
+  },
+  "time": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 100
+  },
+  "nutrition": {
+    "caloriesPerServing": 390
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "flour",
+      "name": "mąki pszennej",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "id": "water",
+      "name": "ciepłej wody",
+      "amount": 300,
+      "unit": "ml"
+    },
+    {
+      "id": "yeast",
+      "name": "suchych drożdży",
+      "amount": 7,
+      "unit": "g"
+    },
+    {
+      "id": "oil",
+      "name": "oliwy",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "salt",
+      "name": "soli",
+      "amount": 1,
+      "unit": "łyżeczka"
+    }
+  ],
+  "steps": [
+    "Wymieszaj mąkę, drożdże i sól.",
+    "Dodaj wodę oraz oliwę, potem wyrabiaj ciasto przez 8-10 minut.",
+    "Odstaw pod przykryciem na około godzinę.",
+    "Uformuj i piecz według tego, do czego używasz ciasta."
+  ]
+}
