@@ -1,0 +1,151 @@
+{
+  "slug": "fasola-piekny-jas-w-sosie-pomidorowo-smietankowym",
+  "title": "Fasola Piękny Jaś w sosie pomidorowo-śmietankowym",
+  "category": "Sycące",
+  "tags": [
+    "fasola",
+    "wege",
+    "pomidorowe",
+    "kremowe",
+    "obiad"
+  ],
+  "summary": "Ugotowana fasola Piękny Jaś w gładkim sosie z pomidorów, garam masala, śmietanki i masła.",
+  "servings": {
+    "base": 3
+  },
+  "time": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "nutrition": {
+    "caloriesPerServing": null
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "white-beans",
+      "name": "ugotowanej fasoli Piękny Jaś",
+      "amount": 650,
+      "unit": "g"
+    },
+    {
+      "id": "onion",
+      "name": "cebuli",
+      "amount": 1,
+      "unit": "szt."
+    },
+    {
+      "id": "garlic",
+      "name": "czosnku",
+      "amount": 2,
+      "unit": "ząbki"
+    },
+    {
+      "id": "ginger",
+      "name": "imbiru",
+      "amount": 3,
+      "unit": "cm kawałek"
+    },
+    {
+      "id": "tomato-paste",
+      "name": "koncentratu pomidorowego",
+      "amount": 1,
+      "unit": "łyżka"
+    },
+    {
+      "id": "tomato-passata",
+      "name": "pulpy pomidorowej",
+      "amount": 400,
+      "unit": "ml"
+    },
+    {
+      "id": "garam-masala",
+      "name": "garam masala",
+      "amount": 1,
+      "unit": "płaska łyżka"
+    },
+    {
+      "id": "honey",
+      "name": "miodu",
+      "amount": 1,
+      "unit": "łyżeczka"
+    },
+    {
+      "id": "cream",
+      "name": "śmietanki",
+      "amount": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "butter",
+      "name": "masła",
+      "amount": 2,
+      "unit": "łyżki"
+    },
+    {
+      "id": "olive-oil",
+      "name": "oliwy",
+      "amount": null,
+      "unit": "odrobina"
+    },
+    {
+      "id": "smoked-paprika",
+      "name": "papryki wędzonej",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "sweet-paprika",
+      "name": "papryki słodkiej",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "salt",
+      "name": "soli",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "pepper",
+      "name": "pieprzu",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "cumin",
+      "name": "kuminu",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "turmeric",
+      "name": "kurkumy",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "chili-flakes",
+      "name": "płatków chili",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "parsley",
+      "name": "natki pietruszki",
+      "amount": null,
+      "unit": "do podania"
+    }
+  ],
+  "steps": [
+    "Cebulę pokrój w kostkę, czosnek posiekaj, a imbir obierz i zetrzyj albo drobno posiekaj.",
+    "Na maśle z dodatkiem oliwy podsmaż cebulę, aż się zeszkli.",
+    "Dodaj czosnek i imbir. Smaż krótko, tylko do uwolnienia aromatu.",
+    "Dodaj koncentrat pomidorowy i garam masala. Wymieszaj i podsmaż jeszcze przez chwilę.",
+    "Wlej pulpę pomidorową, dodaj paprykę wędzoną, paprykę słodką, sól, pieprz, kumin, kurkumę, płatki chili i miód. Gotuj kilka minut.",
+    "Zblenduj sos na gładko.",
+    "Dodaj ugotowaną fasolę i śmietankę. Podgrzewaj na małym ogniu, aż sos zgęstnieje i oblepi fasolę.",
+    "Podawaj z posiekaną natką pietruszki."
+  ]
+}
