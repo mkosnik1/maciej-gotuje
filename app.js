@@ -20,6 +20,11 @@ const formatNumber = (value) => {
   return Number.isInteger(value) ? String(value) : value.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
 };
 
+const formatMacro = (value) => {
+  if (!Number.isFinite(value)) return "";
+  return Math.round(value);
+};
+
 const pluralServings = (count) => {
   if (count === 1) return "porcja";
   if ([2, 3, 4].includes(count)) return "porcje";
@@ -106,7 +111,53 @@ function getFilteredRecipes() {
     .sort(byTitle);
 }
 
-function renderHome() {
+function restoreFocusedField({ focusId, cursorPosition } = {}) {
+  if (!focusId) return;
+  const field = app.querySelector(`#${focusId}`);
+  if (!field) return;
+  field.focus();
+  if (Number.isInteger(cursorPosition) && "setSelectionRange" in field) {
+    field.setSelectionRange(cursorPosition, cursorPosition);
+  }
+}
+
+function getNutritionItems(recipe) {
+  const nutrition = recipe.nutrition || {};
+  return [
+    { label: "Kalorie", value: nutrition.caloriesPerServing, unit: "kcal" },
+    { label: "Białko", value: nutrition.proteinGrams, unit: "g" },
+    { label: "Węgle", value: nutrition.carbsGrams, unit: "g" },
+    { label: "Tłuszcz", value: nutrition.fatGrams, unit: "g" }
+  ].filter((item) => Number.isFinite(item.value));
+}
+
+function renderNutrition(recipe) {
+  const items = getNutritionItems(recipe);
+  if (!items.length) return "";
+
+  return `
+    <section class="nutrition-panel" aria-label="Makro i kaloryczność">
+      <div>
+        <p class="eyebrow">Makro</p>
+        <h2>Na porcję</h2>
+      </div>
+      <div class="nutrition-grid">
+        ${items
+          .map(
+            (item) => `
+              <div class="nutrition-card">
+                <span>${escapeHtml(item.label)}</span>
+                <strong>${formatMacro(item.value)} ${escapeHtml(item.unit)}</strong>
+              </div>
+            `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderHome(options = {}) {
   const filteredRecipes = getFilteredRecipes();
   const tagCounts = getTagCounts();
   const visibleTags = getVisibleTags();
@@ -161,7 +212,7 @@ function renderHome() {
 
   app.querySelector("#search").addEventListener("input", (event) => {
     searchTerm = event.target.value;
-    renderHome();
+    renderHome({ focusId: "search", cursorPosition: event.target.selectionStart });
   });
 
   app.querySelector("#category").addEventListener("change", (event) => {
@@ -171,7 +222,7 @@ function renderHome() {
 
   app.querySelector("#tag-search").addEventListener("input", (event) => {
     tagSearchTerm = event.target.value;
-    renderHome();
+    renderHome({ focusId: "tag-search", cursorPosition: event.target.selectionStart });
   });
 
   app.querySelectorAll("[data-tag]").forEach((button) => {
@@ -180,6 +231,8 @@ function renderHome() {
       renderHome();
     });
   });
+
+  restoreFocusedField(options);
 
   const grid = app.querySelector("#recipe-grid");
   if (!filteredRecipes.length) {
@@ -227,6 +280,8 @@ function renderRecipe(slug) {
         </div>
         <div class="recipe-hero__image" aria-label="Placeholder zdjęcia przepisu"></div>
       </section>
+
+      ${renderNutrition(recipe)}
 
       <section class="content-grid">
         <div class="panel">
@@ -353,7 +408,12 @@ function renderSchema() {
     summary: "Krótki opis przepisu.",
     servings: { base: 2 },
     time: { prepMinutes: 10, cookMinutes: 20, totalMinutes: 30 },
-    nutrition: { caloriesPerServing: 520 },
+    nutrition: {
+      caloriesPerServing: 520,
+      proteinGrams: 22,
+      carbsGrams: 64,
+      fatGrams: 18
+    },
     image: "assets/placeholder.jpg",
     ingredients: [
       { id: "flour", name: "mąki", amount: 500, unit: "g" },
