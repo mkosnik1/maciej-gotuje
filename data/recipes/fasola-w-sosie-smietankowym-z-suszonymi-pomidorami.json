@@ -9,7 +9,7 @@
     "kremowe",
     "obiad"
   ],
-  "summary": "Biała fasola w kremowym sosie ze śmietanki, suszonych pomidorów i pecorino.",
+  "summary": "Biała fasola, śmietanka, suszone pomidory i ser. Brzmi jak obiad z puszki? Trochę tak. Smakuje dużo lepiej.",
   "servings": {
     "base": 2
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 25
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 532,
+    "proteinGrams": 18,
+    "carbsGrams": 38,
+    "fatGrams": 32
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -103,10 +106,10 @@
     }
   ],
   "steps": [
-    "Cebulę pokrój w kostkę, czosnek drobno posiekaj, a suszone pomidory pokrój na mniejsze kawałki.",
-    "Na patelni rozpuść masło. Dodaj fasolę, cebulę, czosnek i suszone pomidory.",
-    "Dopraw solą, pieprzem, ostrą papryką i ziołami prowansalskimi. Smaż, aż cebula się zeszkli.",
-    "Dolej śmietankę i dodaj starty ser. Podgrzewaj na małym ogniu, aż ser się rozpuści, a sos zrobi się kremowy.",
-    "Podawaj ze świeżą bazylią, ryżem albo grzanką z ciemnego chleba."
+    "Pokrój cebulę w kostkę, posiekaj czosnek, a suszone pomidory ciachnij na mniejsze kawałki.",
+    "Na patelni rozpuść masło. Dorzuć fasolę, cebulę, czosnek i pomidory.",
+    "Dopraw solą, pieprzem, ostrą papryką i ziołami prowansalskimi. Smaż, aż cebula zmięknie i zrobi się szklista.",
+    "Wlej śmietankę, dorzuć starty ser i podgrzewaj na małym ogniu. Sos ma się zrobić kremowy, nie drama z grudkami.",
+    "Podawaj z bazylią, ryżem albo grzanką z ciemnego chleba. Grzanka pasuje tu bezczelnie dobrze."
   ]
 }
