@@ -10,7 +10,7 @@ Prywatna książka kucharska w formie prostej statycznej strony.
 - automatyczna lista tagów z liczbą przepisów i wyszukiwarką tagów
 - kalkulator składników według liczby porcji
 - kalkulator składników według ilości konkretnego składnika, np. 500 g mąki
-- przepisy trzymane w `data/recipes.json`
+- przepisy trzymane jako osobne pliki w `data/recipes/`
 
 ## Jak uruchomić lokalnie
 
@@ -30,7 +30,7 @@ Bez serwera przeglądarka może zablokować wczytanie pliku JSON.
 
 ## Jak dodać przepis
 
-Dopisz kolejny obiekt do tablicy w `data/recipes.json`.
+Dodaj nowy plik w `data/recipes/`, np. `data/recipes/nazwa-przepisu.json`, a potem dopisz jego nazwę do `data/recipes/index.json`.
 
 ```json
 {
