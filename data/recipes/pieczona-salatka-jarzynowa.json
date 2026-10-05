@@ -1,0 +1,113 @@
+{
+  "slug": "pieczona-salatka-jarzynowa",
+  "title": "Pieczona sałatka jarzynowa",
+  "category": "Przekąski",
+  "tags": [
+    "sałatka",
+    "jarzynowa",
+    "warzywa",
+    "jajka",
+    "wegetariańskie"
+  ],
+  "summary": "Klasyczna sałatka jarzynowa w wersji z pieczonymi warzywami, ogórkami kiszonymi, jabłkiem, jajkiem i sosem majonezowo-musztardowym.",
+  "servings": {
+    "base": 6
+  },
+  "time": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "nutrition": {
+    "caloriesPerServing": null
+  },
+  "image": "assets/placeholder.jpg",
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "name": "ziemniaków",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "id": "carrots",
+      "name": "marchewki",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "id": "parsley-root",
+      "name": "korzenia pietruszki",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "id": "celery-root",
+      "name": "selera korzeniowego",
+      "amount": 300,
+      "unit": "g"
+    },
+    {
+      "id": "pickles",
+      "name": "ogórków kiszonych",
+      "amount": 5,
+      "unit": "szt."
+    },
+    {
+      "id": "sour-apples",
+      "name": "kwaśnych jabłek",
+      "amount": 2,
+      "unit": "szt."
+    },
+    {
+      "id": "eggs",
+      "name": "jajek ugotowanych na twardo",
+      "amount": 5,
+      "unit": "szt."
+    },
+    {
+      "id": "mayonnaise",
+      "name": "majonezu",
+      "amount": 4,
+      "unit": "łyżki"
+    },
+    {
+      "id": "mustard",
+      "name": "musztardy",
+      "amount": 2,
+      "unit": "łyżeczki"
+    },
+    {
+      "id": "olive-oil",
+      "name": "oliwy",
+      "amount": null,
+      "unit": "do pieczenia"
+    },
+    {
+      "id": "soy-sauce",
+      "name": "sosu sojowego albo maggi",
+      "amount": null,
+      "unit": "odrobina"
+    },
+    {
+      "id": "salt",
+      "name": "soli",
+      "amount": null,
+      "unit": "do smaku"
+    },
+    {
+      "id": "pepper",
+      "name": "pieprzu",
+      "amount": null,
+      "unit": "do smaku"
+    }
+  ],
+  "steps": [
+    "Ziemniaki, marchewkę, korzeń pietruszki i seler pokrój w kostkę.",
+    "Przełóż warzywa na blachę, polej oliwą, dopraw solą i pieprzem.",
+    "Piecz w 200°C przez 40 minut, mieszając warzywa w połowie pieczenia. Ostudź.",
+    "Wymieszaj majonez, musztardę i odrobinę sosu sojowego albo maggi.",
+    "Ogórki kiszone, jabłka i jajka pokrój w kostkę.",
+    "Wymieszaj ostudzone pieczone warzywa z ogórkami, jabłkami, jajkami i sosem. Dopraw solą i pieprzem do smaku."
+  ]
+}
