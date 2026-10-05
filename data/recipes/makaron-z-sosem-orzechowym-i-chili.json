@@ -9,7 +9,7 @@
     "wegańskie",
     "szybkie"
   ],
-  "summary": "Makaron w pikantnym sosie z masła orzechowego, sosu sojowego i aromatycznego oleju.",
+  "summary": "Makaron w ostrym sosie z masła orzechowego, sosu sojowego i gorącego oleju. Szybkie, tłuste, konkretne. Zero udawania lekkiej sałatki.",
   "servings": {
     "base": 2
   },
@@ -19,7 +19,10 @@
     "totalMinutes": 20
   },
   "nutrition": {
-    "caloriesPerServing": null
+    "caloriesPerServing": 848,
+    "proteinGrams": 17,
+    "carbsGrams": 73,
+    "fatGrams": 54
   },
   "image": "assets/placeholder.jpg",
   "ingredients": [
@@ -79,7 +82,7 @@
     },
     {
       "id": "oil",
-      "name": "neutralnego oleju (np. słonecznikowego)",
+      "name": "neutralnego oleju, np. słonecznikowego",
       "amount": 80,
       "unit": "ml"
     },
@@ -109,10 +112,11 @@
     }
   ],
   "steps": [
-    "Do patelni włóż masło orzechowe, czosnek, imbir, dymkę, szalotkę, chili crisp, sezam, sos sojowy, ocet ryżowy i pokrojoną papryczkę chili.",
-    "Rozgrzej olej, aż będzie bardzo gorący i zacznie lekko dymić. Ostrożnie polej nim składniki na patelni, a następnie dokładnie wymieszaj trzepaczką, tworząc sos.",
-    "Ugotuj makaron zgodnie z instrukcją na opakowaniu. Zachowaj trochę wody z gotowania.",
-    "Wymieszaj makaron z sosem. Jeśli sos jest za gęsty, dolej odrobinę zachowanej wody.",
-    "Podawaj z dodatkową dymką, chili i sezamem."
+    "Do patelni wrzuć masło orzechowe, czosnek, imbir, dymkę, szalotkę, chili crisp, sezam, sos sojowy, ocet ryżowy i chili.",
+    "Rozgrzej olej, aż będzie bardzo gorący i zacznie lekko dymić. Ostrożnie polej nim wszystko na patelni. Będzie syczeć, o to chodzi.",
+    "Wymieszaj porządnie trzepaczką, aż zrobi się gęsty, błyszczący sos.",
+    "Ugotuj makaron według instrukcji. Zachowaj trochę wody z gotowania, bo zaraz może uratować sytuację.",
+    "Wymieszaj makaron z sosem. Jeśli jest za gęsto, dolej trochę wody po makaronie.",
+    "Podawaj z dodatkową dymką, chili i sezamem. I tyle, gotowe, można znikać z miską."
   ]
 }
